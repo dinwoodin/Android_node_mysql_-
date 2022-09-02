@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="70sp"
+        android:layout_height="70sp"
+        android:src="@drawable/ic_home"
+        android:layout_marginRight="10sp"
+        android:padding="5sp"
+        android:layout_marginTop="5sp"/>
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상품명"
+        android:layout_toRightOf="@id/image"
+        android:layout_marginTop="12sp"
+        android:lines="1"
+        android:ellipsize="end"
+        />
+    <CheckBox
+        android:id="@+id/chk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"/>
+
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="상품rkrkrkrkrkrkk"
+        android:layout_toRightOf="@id/image"
+        android:layout_below="@id/name"
+        android:layout_marginTop="5sp"
+        />
+
+
+
+
+
+</RelativeLayout>
